@@ -10,6 +10,7 @@ fig, ax = plt.subplots()
 # add labels to the figure
 ax.set_title("Sine wave 1(one)")
 ax.set_ylabel("sin x", loc='center')
+ax.set_xlabel("values of x",loc="right")
 
 x = np.array([i/20 for i in range(41)])
 y = np.array([np.sin(np.pi*j) for j in x])
